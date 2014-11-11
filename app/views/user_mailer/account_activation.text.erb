@@ -1,5 +1,6 @@
 Hi <%= @user.name %>,
 
-Welcome to the Sample App! Click on the link below to activate your account:
+Thanks for trying out Tim's app! Click on the link below and we'll activate your account so you can get started.
 
 <%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
+
